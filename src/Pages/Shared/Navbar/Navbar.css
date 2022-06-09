@@ -1,3 +1,11 @@
 .navbarBg{
     background: #f7e8e8;
 }
+.navButton{
+  background: none;
+
+}
+.navButton:hover{
+    text-decoration: underline;
+    color: #F87A8C;
+}

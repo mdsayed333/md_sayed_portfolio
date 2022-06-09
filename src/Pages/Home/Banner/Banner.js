@@ -13,7 +13,7 @@ const Banner = () => {
             Hi their, I am <span className="font-bold text-primary">MOHAMMED SAYED</span>
           </h2>
           <h1 className="text-4xl font-bold my-5">MERN Stack Web Developer</h1>
-          <Link className="myButton" to={resume} target="_blank" download>
+          <Link className="myButton w-3/6" to={resume} target="_blank" download>
             Download Resume
           </Link>
         </div>

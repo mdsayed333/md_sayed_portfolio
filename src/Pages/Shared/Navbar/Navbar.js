@@ -5,20 +5,14 @@ import './Navbar.css';
 const Navbar = () => {
   const navMenu = (
     <>
-      <li>
-        <a>Home</a>
+      <li className="navButton">
+        <Link to='/'>Home</Link>
       </li>
-      <li>
-        <a>Project</a>
+      <li className="navButton">
+        <Link to='/'>Project</Link>
       </li>
-      <li>
-        <a>Resume</a>
-      </li>
-      <li>
-        <a>Blogs</a>
-      </li>
-      <li>
-        <a>Contact</a>
+      <li className="navButton">
+        <Link to='/'>Resume</Link>
       </li>
     </>
   );
@@ -45,7 +39,7 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow navbarBg rounded-box w-52"
+              class="menu menu-compact dropdown-content mt-3 p-2 navbarBg rounded-box w-52"
             >
               {navMenu}
             </ul>
@@ -53,7 +47,7 @@ const Navbar = () => {
           <a class=" normal-case text-2xl"><span className="">MOHAMMED</span>  <span>SAYED</span></a>
         </div>
         <div class="navbar-end hidden lg:flex">
-          <ul class="menu menu-horizontal p-0">
+          <ul class="menu menu-horizontal  ">
             {navMenu}
           </ul>
         </div>
