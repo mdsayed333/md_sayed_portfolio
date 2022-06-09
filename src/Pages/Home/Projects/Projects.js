@@ -1,10 +1,11 @@
 import React from "react";
+import './Projects.css';
 
 const Projects = () => {
   return (
-    <div className="p-8 ">
+    <div className="p-8 projectsContainer">
       <h2 className="text-3xl font-bold text-center my-7">My Projects....</h2>
-      
+
         <div className="grid lg:grid-cols-2 gap-6">
             <div class="card lg:card-side bg-base-100 shadow-xl">
             <figure>

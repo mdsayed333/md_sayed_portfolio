@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar/Navbar';
 import Banner from './Banner/Banner';
+import ContactMe from './ContactMe/ContactMe';
 import Projects from './Projects/Projects';
 
 const Home = () => {
@@ -8,8 +9,8 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <Banner></Banner>
-            {/* <h2 className='text-red-500'>This Is Home...</h2> */}
             <Projects></Projects>
+            <ContactMe></ContactMe>
         </div>
     );
 };
