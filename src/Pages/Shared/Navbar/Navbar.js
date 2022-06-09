@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Navbar.css';
 
 const Navbar = () => {
   const navMenu = (
@@ -22,8 +23,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div>
-      <div class="navbar bg-base-100">
+    <div >
+      <div class="navbar navbarBg">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -44,7 +45,7 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              class="menu menu-compact dropdown-content mt-3 p-2 shadow navbarBg rounded-box w-52"
             >
               {navMenu}
             </ul>
