@@ -2,9 +2,9 @@ import React from 'react';
 
 const ContactMe = () => {
     return (
-        <div className="grid lg:grid-cols-2 gap-6 p-12">
+        <div style={{background: '#FDF5FA'}} className="grid lg:grid-cols-2 gap-6 p-12">
             <div className='p-10 shadow'>
-                <h2 className='text-2xl font-bold text-primary my-4 '>Contact Me</h2>
+                <h2 className='text-4xl font-bold text-primary my-4 '>Contact Me</h2>
                 <p className='text-gray-600'>You can give me opinion about my webpage and project.I will try my best 
                     to reply all of your message. I am looking for a job opportunity to utilize my skills. 
                     I would be grateful if you take a look at my projects and contact me if you think I am a good fit.</p>

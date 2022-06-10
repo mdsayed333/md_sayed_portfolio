@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
+import resume from '../../../assets/resume/Mohammed Sayed Resume.pdf';
 
 const Navbar = () => {
   const navMenu = (
@@ -9,16 +10,16 @@ const Navbar = () => {
         <Link to='/'>Home</Link>
       </li>
       <li className="navButton">
-        <Link to='/'>Project</Link>
+        <Link to='/'>Projects</Link>
       </li>
       <li className="navButton">
-        <Link to='/'>Resume</Link>
+        <Link to={resume} target='_blank'>Resume</Link>
       </li>
     </>
   );
   return (
     <div >
-      <div class="navbar navbarBg">
+      <div class="navbar navbarBg px-12">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
