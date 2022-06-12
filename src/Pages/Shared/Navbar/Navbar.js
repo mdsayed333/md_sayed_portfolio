@@ -10,7 +10,13 @@ const Navbar = () => {
         <Link to='/'>Home</Link>
       </li>
       <li className="navButton">
-        <Link to='/'>Projects</Link>
+      <a href='/#projects'>Projects</a>
+      </li>
+      <li className="navButton">
+        <a href='/#contactMe'>Contact Me</a>
+      </li>
+      <li className="navButton">
+        <Link to='/blog'>Blog</Link>
       </li>
       <li className="navButton">
         <Link to={resume} target='_blank'>Resume</Link>

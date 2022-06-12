@@ -5,7 +5,7 @@ import ProjectDetails from './ProjectDetails';
 const Project = ({project}) => {
     const {name, img1, img2, img3, description, features, _id} = project;
     return (
-        <div class="card lg:card-side bg-base-100 shadow-xl">
+        <div id='projects' class="card lg:card-side bg-base-100 shadow-xl">
             <figure>
                 <img
                 style={{ height: "300px", width: "300px" }}

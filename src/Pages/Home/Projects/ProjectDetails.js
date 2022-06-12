@@ -30,8 +30,6 @@ const ProjectDetails = () => {
 
   return (
     <div>
-        <Navbar></Navbar>
-      {/* <h2 className="text-4xl text-center">Project Details</h2> */}
       <div>
         <div class="hero min-h-screen bg-base-200">
           <div class="hero-content flex-col lg:flex-row">
