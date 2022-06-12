@@ -1,0 +1,79 @@
+[
+    {
+        "_id": 1,
+        "name": "TEXTILE INDUSTRIAL TOOLS",
+        "img1": "https://i.ibb.co/9T73Vnd/textile-industrial-tools-1.png",
+        "img2": "https://i.ibb.co/TvBKYGs/textile-industrial-tools-2.png",
+        "img3": "https://i.ibb.co/X3n7mXR/textile-industrial-tools-3.png",
+        "description": "This is a buy and sell Marketplace.",
+        "features": [
+            "This website has an admin and user role.",
+            "Users can only buy products.",
+            "Admin can add , update and delete products, make admin, delete users.",
+            "This Website has an Email-Password and Google based authentication system."
+        ],
+         
+        "frontendTechnology": "HTML, Tailwind.css, DaisyUI, React-Toastify, React.js.",
+        "backendTechnology": "Node.js, Express.js, MongoDB, Google Firebase, Heroku, JWT Token.",
+        "liveLink": "https://industrial-tools-and-equipment.web.app/",
+        "clientSide": "https://github.com/mdsayed333/textile_industrial_tools_equipment_client_as12",
+        "serverSide": "https://github.com/mdsayed333/textile_industrial_tools_equipment_server_as12"
+    },
+    {
+        "_id": 2,
+        "name": "DREAMS ELECTRONICS",
+        "img1": "https://i.ibb.co/CvQ8Dvy/dreams-electronics1.png",
+        "img2": "https://i.ibb.co/g9py8y8/dreams-electronics2.png",
+        "img3": "https://i.ibb.co/Fgx0SbM/dreams-electronics3.png",
+        "description": "This is an Inventory management system.",
+        "features": [
+            "This Website has an Email-Password and Google based authentication system.",
+            "Using this web app, users can add products in stock.",
+            "Users also can update or change stock for delivery/buy."
+        ],
+         
+        "frontendTechnology": "HTML, CSS, React Bootstrap, React.js, React-Toastify.",
+        "backendTechnology": "Node.js, Express.js, MongoDB, Google Firebase, Heroku.",
+        "liveLink": "https://dreams-electronics.web.app/",
+        "clientSide": "https://github.com/mdsayed333/dreams_electronics_warehouse-as11",
+        "serverSide": "https://github.com/mdsayed333/dreams_electronics_warehouse_server_as11"
+    },
+    {
+        "_id": 3,
+        "name": "MAGIC PHOTOGRAPHER",
+        "img1": "https://i.ibb.co/PFMNTTG/magic-photographer1.png",
+        "img2": "https://i.ibb.co/Yjvqwh8/magic-photographer3.png",
+        "img3": "https://i.ibb.co/cYMGqpk/magic-photographer2.png",
+        "description": "This is an independent service provider photographer website.",
+        "features": [
+            "Home page has a service section.",
+            "Users can choose and buy services.",
+            "This Website has an Email-Password and Google based authentication system"
+        ],
+         
+        "frontendTechnology": "CSS, Bootstrap, Google Font, React.js, React-Toastify",
+        "backendTechnology": "Google Firebase, React firebase hooks.",
+        "liveLink": "https://magic-photographer.firebaseapp.com/",
+        "clientSide": "https://github.com/mdsayed333/magic_photographer_as10",
+        "serverSide": ""
+    },
+    {
+        "_id": 4,
+        "name": "Imaging Book Store",
+        "img1": "https://i.ibb.co/T48nmDB/imagine-book-store1.png",
+        "img2": "https://i.ibb.co/hy3wbSx/imagine-book-store2.png",
+        "img3": "https://i.ibb.co/LQtqRC0/imagine-book-store3.png",
+        "description": "Book review platform. Anyone can see customer reviews here.",
+        "features": [
+            "You can find out about the book on this site.",
+            "There is a customer review page.",
+            "Dashboard page has two demo charts."
+        ],
+         
+        "frontendTechnology": "React, CSS, React Bootstrap, Recharts",
+        "backendTechnology": "",
+        "liveLink": "https://imagine-bookstore-assignment-9.netlify.app/",
+        "clientSide": "https://github.com/programming-hero-web-course-4/product-analysis-website-mdsayed333",
+        "serverSide": ""
+    }
+]
